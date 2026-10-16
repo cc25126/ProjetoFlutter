@@ -92,7 +92,7 @@ class HomePage extends StatelessWidget {
             Icon(
               Icons.calendar_month_rounded,
               size: 72,
-              color: Color(0xFF2457C5),
+              color: Color.fromARGB(255, 182, 127, 255),
             ),
             SizedBox(height: 16),
             Text(
