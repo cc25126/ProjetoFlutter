@@ -1,12 +1,11 @@
-
 class Horario {
   final String diaSemana;
-  final String inicio;
-  final String fim;
+  final String hora;
+  final String local;
 
   const Horario({
     required this.diaSemana,
-    required this.inicio,
-    required this.fim,
+    required this.hora,
+    this.local = 'Departamento de Computação',
   });
 }
